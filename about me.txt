@@ -1,0 +1,36 @@
+Hey
+Mi Nombre es Edwin Cruz
+
+Soy un desarrollador con experiencia en ambientes de desarrollo .NET
+usando lenguajes de programación como C#, vb.Net y ASP.NET MVC,
+además, con el conocimiento en creación y despliegues de Restful API en WCF.
+
+Mis trabajos fueron la creación y despliegues de aplicaciones de escritorios
+en negocios de indelos bancarios, contables y atención a público.
+
+Tengo conocimientos en desarrollo web usando HTML5, CSS3 y javascript
+y sin temor a aplicar mis conocimientos he creado aplicaciones 
+con dichas tecnologias y desplegado exitasamente mis aplicaciones
+en servidores windows en entorno en IIS.
+
+En búsqueda de nuevos retos decidí mejorar mis habilidades
+en desarrollo web obteniendo conocimiento en MERN stack
+realizando algunos proyectos que podrian interesarte.
+
+
+
+
+Hey! 
+I am Edwin Cruz
+
+I am a developer with an extensive experience in .net languages programming 
+such as C#. vb.Net, ASP.NET and Entity Framework and 
+i able to create a RESTful API development using WCF.
+
+
+Familiarity with front-end development
+such as HTML, CSS, and JavaScript, 
+and am able to work collaboratively with front-end developers to deliver integrated solutions.
+
+Thanks my willing to improve my skills (I am always learning new languajes and tools),
+I did get new knowledge about MERN Stack and I made some projects you may interest at them
