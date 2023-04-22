@@ -1,0 +1,153 @@
+.nav-text {
+  display: block;
+}
+.myName {
+  display: block;
+}
+.myName-small {
+  display: none;
+}
+.fa {
+  display: none;
+}
+
+aside {
+  background: #212121;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 550px;
+  overflow: hidden;
+  z-index: 100;
+  box-shadow: inset -0.5px 0px 0px 0px #292d3e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  /*una animación para el incremento de tamaño de ancho*/
+  transition: width 0.5s ease-out;
+}
+
+aside header {
+  text-align: center;
+}
+aside header a {
+  text-decoration: none;
+}
+aside span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+aside .Title,
+.Subtitle {
+  color: #fff;
+}
+
+aside .Title {
+  font-size: 48px;
+}
+aside .Subtitle {
+  font-size: 18px;
+}
+
+aside > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 36px;
+  list-style: none;
+}
+
+aside > ul > li {
+  display: block;
+  width: 100%;
+}
+
+aside li > a {
+  display: table;
+  text-align: center;
+  width: 100%;
+  border-spacing: 0;
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+  transition: all 0.15s linear;
+  text-decoration: none;
+}
+
+aside li:hover > a {
+  color: #000;
+  background-color: #fbc02d;
+  transition: all 0.15s linear;
+}
+
+/* for Large screens */
+@media (min-width: 1283px) {
+}
+
+/*for desktop*/
+@media (min-width: 1246px) and (max-width: 1281px) {
+}
+
+/*for Ipad on potrait*/
+@media (min-width: 768px) and (max-width: 1282px) {
+    .fa { display: block;}
+    .myName {
+      display: none;
+    }
+    .myName-small {
+      display: block;
+    }
+    aside {
+        width: 450px;
+      transition: width 0.5s ease-out;
+    }
+    .nav-text {
+      display: none;
+    }
+}
+
+/*for mobile and small Ipad*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .fa {
+    display: block;
+  }
+  .myName {
+    display: none;
+  }
+  .myName-small {
+    display: block;
+  }
+  aside {
+    width: 450px;
+    transition: width 0.5s ease-out;
+  }
+  .nav-text {
+    display: none;
+  }
+}
+
+/*para mobile*/
+@media (max-width: 480px) {
+  .fa {
+    display: block;
+  }
+  .myName {
+    display: none;
+  }
+  .myName-small {
+    display: block;
+  }
+  aside {
+    width: 450px;
+    transition: width 0.5s ease-out;
+  }
+  .nav-text {
+    display: none;
+  }
+}
