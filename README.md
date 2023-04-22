@@ -10,9 +10,7 @@ Puedes Ver el sitio <a href="https://ucamp-ecommerce-client.onrender.com/">🔗 
     <b>Un portafolio</b> digital es una recopilación de documentos que muestra diferentes aspectos globales o parciales de personas (datos personales, académicos, profesionales) u organizaciones (objetivos, organigrama, productos). Los documentos se seleccionan y organizan de forma reflexiva y deliberada y se presentan en formato digital (texto, imágenes, animaciones, simulaciones, audio y vídeo). Se puede decir que es una manera de presentar una identidad en formato digita
 </p>
 <br><br>
-<img src="https://github.com/EdwinCruz13/Ucamp-Ecommerce/blob/main/othersFile/images/React-App.png?raw=true" />
-<br><br>
-<img src="https://github.com/EdwinCruz13/Ucamp-Ecommerce/blob/main/othersFile/images/React-App-Collections.png?raw=true" />
+<img src="https://github.com/EdwinCruz13/Ucamp-Portfolio/blob/main/src/icons/React-App2.png?raw=true" />
 </details>
 
 
