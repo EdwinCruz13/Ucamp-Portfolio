@@ -6,6 +6,7 @@ body {
 }
 
 .menu-container {
+  position: absolute;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -16,12 +17,15 @@ body {
   background-color: #1d1d1d;
 }
 .pagination-container {
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-left: 1.5rem;
+  height: 100%;
+  /* margin-left: 1.5rem; */
+  margin-left: 320px;
 }
 
 .App {
@@ -51,16 +55,19 @@ aside li {
   
   display: block;
   color: #fff;
-  font-size: 22px;
+  font-size: 28px;
   text-align: justify;
 }
 .section-body {
   display: flex;
   flex-direction: row;
-  gap: 1.5rem;
+  gap: 1.0rem;
   flex-wrap: wrap;
-  padding: 2rem 13px;
-  height: 90%;
+  padding: 3.5rem;
+  height: 100%;
+
+  justify-content:space-evenly;
+  align-items: center;
 
   overflow-y: scroll;
 }
@@ -93,4 +100,135 @@ section-body::-webkit-scrollbar-track {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #292d3e;
+  
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.card img{
+  opacity: 0.4;
+}
+
+.card:hover {
+  background-color: #fbc02d;
+  color:000;
+  transition: all 0.15s linear;
+}
+
+.card-text, .card-title, .card-link {
+  color:#fff;
+  transition: all 0.15s linear;
+}
+
+.card:hover .card-text, .card:hover .card-title, .card:hover .card-link {
+  color:#000;
+  transition: all 0.15s linear;
+}
+
+.card:hover img{
+  opacity: 0.9;
+  transition: all 0.15s linear;
+}
+
+.card > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+
+.card > .list-group:first-child .list-group-item:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.card > .list-group:last-child .list-group-item:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.card-subtitle {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
+.card-link + .card-link {
+  margin-left: 1.25rem;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header + .list-group .list-group-item:first-child {
+  border-top: 0;
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1282px) {
+  .pagination-container {
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .pagination-container {
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pagination-container {
+    margin-left: 120px;
+  }
 }

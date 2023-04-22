@@ -13,14 +13,14 @@
 
 aside {
   background: #212121;
-  position: relative;
+  position: fixed;
   top: 0;
   bottom: 0;
   height: 100%;
   left: 0;
-  width: 530px;
+  width: 320px;
   overflow: hidden;
-  z-index: 100;
+  z-index: 9999;
   box-shadow: inset -0.5px 0px 0px 0px #292d3e;
   display: flex;
   flex-direction: column;
@@ -86,12 +86,50 @@ aside li:hover > a {
   transition: all 0.15s linear;
 }
 
+#social-media-link{
+  padding:0.5rem;
+  
+}
+#social-media-link{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+#social-media-link{
+  display: block;
+}
+
+#social-media-link ul {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  gap:2rem;
+  padding: 0.35rem;
+  text-decoration: none;
+
+}
+
+#social-media-link ul li {text-decoration: none; list-style:none;}
+#social-media-link ul img{
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 15%;
+}
+#social-media-link ul li a:hover{
+  box-shadow: inset -0.5px 0px 0px 0px #000;
+  transition: all 0.5s ease-out;
+}
+
 /* for Large screens */
 @media (min-width: 1283px) {
 }
 
 /*for desktop*/
 @media (min-width: 1246px) and (max-width: 1281px) {
+
 }
 
 /*for Ipad on potrait*/
@@ -104,7 +142,7 @@ aside li:hover > a {
       display: block;
     }
     aside {
-        width: 320px;
+        width: 120px;
       transition: width 0.5s ease-out;
     }
     .nav-text {
@@ -124,7 +162,7 @@ aside li:hover > a {
     display: block;
   }
   aside {
-    width: 320px;
+    width: 120px;
     transition: width 0.5s ease-out;
   }
   .nav-text {
@@ -144,7 +182,7 @@ aside li:hover > a {
     display: block;
   }
   aside {
-    width: 320px;
+    width: 120px;
     transition: width 0.5s ease-out;
   }
   .nav-text {

@@ -1,22 +1,27 @@
-.introducing p {
+/* .introducing p {
   display: block;
   width: fit-content;
+
+  padding: 0 2rem;
+} */
+.header{
+  width: 100%;
 }
-.scored-skill {
+.scored-columns {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 5px;
   width: 100%;
   gap: 2.5rem;
   justify-content: space-between;
 }
-.scored-skill section {
+.scored-columns section {
   width: 100%;
   padding: 2rem;
 }
 
-.scored-skill section > h3 {
+.scored-columns section > h3 {
   margin-top: -2rem;
   margin-bottom: 2rem;
 }
@@ -48,30 +53,60 @@
   color: #fff;
 }
 
+
+.myjobs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+
+
+
+
 /* .introducing, .skills{
    width: 480px;
 } */
 
 /*for mobile and small Ipad*/
 @media (min-width: 480px) and (max-width: 767px) {
-  .introducing p {
+  .header p {
     display: none;
     width: fit-content;
   }
 
-  .scored-skill {
+  .scored-columns {
     flex-wrap: wrap;
+  }
+
+  .myjobs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 2.5rem;
   }
 }
 
 /*para mobile*/
 @media (max-width: 480px) {
-  .introducing p {
+  .header p {
     display: none;
     width: 220px;
   }
 
-  .scored-skill {
+  .scored-columns {
     flex-wrap: wrap;
+  }
+
+  .myjobs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 2.5rem;
   }
 }

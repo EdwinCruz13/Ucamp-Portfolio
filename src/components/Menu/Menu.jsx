@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./Menu.css";
+import fb_icon from "../../icons/fb.png";
+import instagram_icon from "../../icons/instagram.png";
+import twitter_icon from "../../icons/twitter.png";
+import tiktok_icon from "../../icons/tiktok.png";
 
 export const Menu = () => {
   return (
@@ -47,7 +51,31 @@ export const Menu = () => {
       </ul>
 
       <footer>
-        <h2 className="Title">I am a footer</h2>
+      <div id="social-media-link">
+          <ul>
+            <li>
+              <a href="#">
+                <img src={tiktok_icon} alt="SocialMedia-tiktok" />
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src={twitter_icon} alt="SocialMedia-twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src={instagram_icon} alt="SocialMedia-instagran" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src={fb_icon} alt="SocialMedia-fb" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </footer>
     </aside>
   );
