@@ -10,7 +10,9 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  
   gap: 1.5rem;
+  width: 100%;
   background-color: #1d1d1d;
 }
 .pagination-container {
@@ -50,5 +52,45 @@ aside li {
   display: block;
   color: #fff;
   font-size: 22px;
-  text-align: lef;
+  text-align: justify;
+}
+.section-body {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 2rem 13px;
+  height: 90%;
+
+  overflow-y: scroll;
+}
+
+.section-body::-webkit-scrollbar,
+.section-body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.section-body::-webkit-scrollbar:vertical,
+.section-body::-webkit-scrollbar:horizontal {
+  width: 8px;
+}
+
+.section-body::-webkit-scrollbar-thumb,
+.section-body::-webkit-scrollbar-thumb {
+  background-color: #9e9e9e;
+  border-radius: 10px;
+  border: 1px solid #f1f2f3;
+}
+
+.section-body::-webkit-scrollbar-track,
+section-body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
