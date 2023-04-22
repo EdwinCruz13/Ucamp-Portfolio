@@ -14,38 +14,32 @@ export const Home = () => {
           <div className="header">
             <h2 className="blast-root">Me, Myself and I will be</h2>
             <p className="blast-description">
-              Soy un desarrollador con experiencia en ambientes de desarrollo
-              .NET. Mis trabajos realizados fueron la creación y despliegues de
-              aplicaciones de escritorios en negocios de indelos bancarios,
-              contables y atención a público usando lenguajes de programación
-              C#, VB.Net, Asp.Net y WCF.
+              I am a developer with experience in development environments .NET.
+              My work done was the creation and deployment of desktop
+              applications in banking indelos businesses, accountants and
+              customer service using programming languages C#, VB.Net, Asp.Net
+              and WCF.
             </p>
 
             <p className="blast-description">
-              Tengo conocimientos en desarrollo web usando HTML5, CSS3 y
-              javascript y sin temor a aplicar mis conocimientos he creado
-              aplicaciones con dichas tecnologias y desplegado exitasamente mis
-              aplicaciones en servidores windows en entorno en IIS.
+              I have the knowledge in web development using HTML5, CSS3 and
+              Javascript and without fear of applying my knowledges I have
+              created applications with said technologies and successfully
+              deployed more applications on windows servers in IIS environment.
             </p>
             <p className="blast-description">
-              En búsqueda de nuevos retos decidí mejorar mis habilidades en
-              desarrollo web obteniendo conocimiento en MERN stack realizando
-              algunos proyectos que podrian interesarte.
+              Seeking for of new challenges I decided to improve my skills in web
+              development gaining knowledge in MERN stack performing Some
+              projects that might interest you.
             </p>
           </div>
 
           <div className="pics">
-            <section>
-              
-            </section>
+            <section></section>
 
-            <section>
-             
-            </section>
+            <section></section>
 
-            <section>
-             
-            </section>
+            <section></section>
           </div>
         </div>
       </section>

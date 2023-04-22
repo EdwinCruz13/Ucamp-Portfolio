@@ -13,8 +13,6 @@ export const Works = () => {
             <h2 className="blast-root">My Jobs</h2>
           </div>
 
-          
-
           <div className="pics myjobs">
             <article className="card" style={{ width: "18rem" }}>
               <img
@@ -25,10 +23,13 @@ export const Works = () => {
               <div className="card-body">
                 <h2 className="card-title">A landing Page</h2>
                 <p className="card-text">
-                  Productos hidropónicos de alta calidad y soporte técnico
-                  superior para ayudar a los productores a tener éxito.
+                  High-quality hydroponic products and technical support
+                  superior to help growers succeed.
                 </p>
-                <a href="https://edwincruz13.github.io/Ucamp-LandingPage/" className="card-link">
+                <a
+                  href="https://edwincruz13.github.io/Ucamp-LandingPage/"
+                  className="card-link"
+                >
                   Go to site
                 </a>
               </div>
@@ -43,11 +44,14 @@ export const Works = () => {
               <div className="card-body">
                 <h2 className="card-title">A Dashboard</h2>
                 <p className="card-text">
-                  Visualiza el rendimiento de monedas mas populares en el
-                  mercado forex. El dashboard te ayudará a comprender el
-                  comportamiento y tomar la mejore decisión.
+                  View the performance of the most popular coins in the forex
+                  market. The dashboard will help you understand the behavior
+                  and make the best decision.
                 </p>
-                <a href="https://edwincruz13.github.io/Ucamp-Dashboard/" className="card-link">
+                <a
+                  href="https://edwincruz13.github.io/Ucamp-Dashboard/"
+                  className="card-link"
+                >
                   Go to site
                 </a>
               </div>
@@ -62,11 +66,14 @@ export const Works = () => {
               <div className="card-body">
                 <h2 className="card-title">A Restaurant app</h2>
                 <p className="card-text">
-                  En este sistema de restaurante permitirá la orden y compra de
-                  platillos online ademas de obtener dichos pedidos y envío del
-                  mismo, ideal para mipyme y pequeños comerciantes.
+                  In this restaurant system it will allow the order and purchase
+                  of dishes online in addition to obtaining said orders and
+                  shipping the same, ideal for MSMEs and small merchants.
                 </p>
-                <a href="https://restaurant-website-0y6g.onrender.com/Home" className="card-link">
+                <a
+                  href="https://restaurant-website-0y6g.onrender.com/Home"
+                  className="card-link"
+                >
                   Go to site
                 </a>
               </div>
@@ -81,19 +88,20 @@ export const Works = () => {
               <div className="card-body">
                 <h2 className="card-title">Ecommerce App</h2>
                 <p className="card-text">
-                  El comercio electrónico se refiere a la compra y venta de
-                  productos o servicios a través de Internet. Esto incluye todo,
-                  desde mercados en línea hasta tiendas en línea operadas por
-                  empresas individuales.
+                  E-commerce refers to the buying and selling of products or
+                  services over the Internet. This includes everything, from
+                  online marketplaces to online stores operated by individual
+                  companies.
                 </p>
-                <a href="https://ucamp-ecommerce-client.onrender.com/" className="card-link">
+                <a
+                  href="https://ucamp-ecommerce-client.onrender.com/"
+                  className="card-link"
+                >
                   Go to site
                 </a>
               </div>
             </article>
-          </div>
 
-          <div className="pics myjobs">
             <article className="card" style={{ width: "18rem" }}>
               <img
                 className="card-img-top"
@@ -101,13 +109,16 @@ export const Works = () => {
                 alt="Eccommerce"
               />
               <div className="card-body">
-                <h2 className="card-title">Gestor de turno</h2>
+                <h2 className="card-title">Track manager app</h2>
                 <p className="card-text">
-                  Plataforma que permite ordenar el proceso de atención al
-                  cliente de manera presencial, midiendo el rendimiento y
-                  agilizar el proceso de trámite.
+                  Platform that allows ordering the customer service process
+                  client in person, measuring performance and expedite the
+                  processing process.
                 </p>
-                <a href="https://github.com/EdwinCruz13/SIGT" className="card-link">
+                <a
+                  href="https://github.com/EdwinCruz13/SIGT"
+                  className="card-link"
+                >
                   Go to site
                 </a>
               </div>
@@ -122,7 +133,8 @@ export const Works = () => {
               <div className="card-body">
                 <h2 className="card-title">Manageable Website</h2>
                 <p className="card-text">
-                  Sitio web de una compañia de préstamos, permite visualizar estados de cuentas y recibos de sus clientes.
+                  A website that allow to visualize loan applications made by
+                  company's client.
                 </p>
                 <a href="https://www.issdhu.gob.ni/" className="card-link">
                   Go to site
