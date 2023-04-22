@@ -38,7 +38,7 @@ export const Menu = () => {
         </li>
         <li>
           <Link to="/works">
-            <i className="fa fa-calendar"></i>
+            <i className="fa fa-tasks"></i>
             <span className="nav-text">Works</span>
           </Link>
         </li>

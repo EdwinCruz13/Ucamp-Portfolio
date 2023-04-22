@@ -15,9 +15,9 @@ export const Contact = () => {
         <div className="section-body">
           <div className="header">
             <h2 className="blast-root">Contact me</h2>
-            <p className="blast-description">Managua, Nicaragua.</p>
-            <p className="blast-description">(505) 8899-8469</p>
-            <p className="blast-description">edwin.cruz13@hotmail.com</p>
+            <p className="blast-description blast-description-md">Managua, Nicaragua.</p>
+            <p className="blast-description blast-description-md">(505) 8899-8469</p>
+            <p className="blast-description blast-description-md">edwin.cruz13@hotmail.com</p>
             <div id="social-media-link" >
                 <ul style={{justifyContent: "left"}}>
                   <li>

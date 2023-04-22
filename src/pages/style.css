@@ -75,7 +75,7 @@
 
 /*for mobile and small Ipad*/
 @media (min-width: 480px) and (max-width: 767px) {
-  .header p {
+  .header p:not(.blast-description-md) {
     display: none;
     width: fit-content;
   }
