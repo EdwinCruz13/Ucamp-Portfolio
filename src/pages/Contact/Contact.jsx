@@ -18,7 +18,7 @@ export const Contact = () => {
             <p className="blast-description blast-description-md">Managua, Nicaragua.</p>
             <p className="blast-description blast-description-md">(505) 8899-8469</p>
             <p className="blast-description blast-description-md">edwin.cruz13@hotmail.com</p>
-            <div className="social-media-link social-media-link-contact" >
+            <div className="social-media-link-contact" >
                 <ul style={{justifyContent: "left"}}>
                   <li>
                     <a href="#">

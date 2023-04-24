@@ -11,7 +11,7 @@ export const Skills = () => {
       <section className="pagination-container">
         <div className="section-body">
           <div className="header">
-            <h2 className="blast-root">Mis habilidades</h2>
+            <h2 className="blast-root">My skills</h2>
           </div>
 
           <div className="scored-columns">

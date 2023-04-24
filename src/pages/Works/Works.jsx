@@ -14,7 +14,7 @@ export const Works = () => {
           </div>
 
           <div className="pics myjobs">
-            <article className="card" style={{ width: "18rem" }}>
+            <article className="card" >
               <img
                 className="card-img-top"
                 src="https://github.com/EdwinCruz13/Ucamp-LandingPage/blob/master/resources/Sistema-Verticales-hidrop%C3%B3nicos.png?raw=true"
@@ -35,7 +35,7 @@ export const Works = () => {
               </div>
             </article>
 
-            <article className="card" style={{ width: "18rem" }}>
+            <article className="card" >
               <img
                 className="card-img-top"
                 src="https://raw.githubusercontent.com/EdwinCruz13/Ucamp-Dashboard/main/structure/desktop.png"
@@ -57,7 +57,7 @@ export const Works = () => {
               </div>
             </article>
 
-            <article className="card" style={{ width: "18rem" }}>
+            <article className="card" >
               <img
                 className="card-img-top"
                 src="https://github.com/EdwinCruz13/Ucamp-Restaurant/raw/main/structure/e2.png?raw=true"
@@ -79,7 +79,7 @@ export const Works = () => {
               </div>
             </article>
 
-            <article className="card" style={{ width: "18rem" }}>
+            <article className="card" >
               <img
                 className="card-img-top"
                 src="https://github.com/EdwinCruz13/Ucamp-Ecommerce/raw/main/othersFile/images/React-App.png?raw=true"
@@ -102,7 +102,7 @@ export const Works = () => {
               </div>
             </article>
 
-            <article className="card" style={{ width: "18rem" }}>
+            <article className="card" >
               <img
                 className="card-img-top"
                 src="https://github.com/EdwinCruz13/SIGT/raw/master/tutorial/waiting.png?raw=true"
@@ -124,7 +124,7 @@ export const Works = () => {
               </div>
             </article>
 
-            <article className="card" style={{ width: "18rem" }}>
+            <article className="card" >
               <img
                 className="card-img-top"
                 src="https://github.com/EdwinCruz13/Ucamp-LandingPage/blob/master/resources/IssdhuWebsite.png?raw=true"
