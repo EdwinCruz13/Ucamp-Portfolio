@@ -51,7 +51,7 @@ export const Menu = () => {
       </ul>
 
       <footer>
-      <div id="social-media-link">
+      <div className="social-media-link social-media-link-contact">
           <ul>
             <li>
               <a href="#">

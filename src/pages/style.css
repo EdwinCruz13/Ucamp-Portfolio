@@ -94,10 +94,11 @@
 
 /*para mobile*/
 @media (max-width: 480px) {
-  .header p {
+  .header p:not(.blast-description-md) {
     display: none;
-    width: 220px;
+    width: fit-content;
   }
+
 
   .scored-columns {
     flex-wrap: wrap;
